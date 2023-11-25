@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Models\DbUser;
+use App\Domain\UserFavorites\Models\DbUser;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;

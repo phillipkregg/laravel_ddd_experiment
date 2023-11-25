@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Models;
+namespace App\Domain\UserFavorites\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -59,7 +59,7 @@ class DbUser extends Authenticatable
 
 
     protected $table = 'users';
-    
+
     /**
      * The attributes that are mass assignable.
      *

@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Models\DbUser;
+use App\Domain\UserFavorites\Models\DbUser;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Str;
 use Laravel\Jetstream\Features;

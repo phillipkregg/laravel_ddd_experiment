@@ -2,14 +2,14 @@
 
 namespace Database\Factories;
 
-use App\Models\DbUser;
-use App\Models\Team;
+use App\Domain\UserFavorites\Models\DbUser;
+use App\Domain\UserFavorites\Models\Team;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 use Laravel\Jetstream\Features;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\DbUser>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Domain\UserFavorites\Models\DbUser>
  */
 class UserFactory extends Factory
 {

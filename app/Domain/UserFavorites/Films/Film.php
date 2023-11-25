@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Films;
+namespace App\Domain\UserFavorites\Films;
 
 use DateTime;
 use Spatie\LaravelData\Data;

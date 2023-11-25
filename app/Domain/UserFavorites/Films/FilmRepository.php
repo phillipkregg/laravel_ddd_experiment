@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Films;
+namespace App\Domain\UserFavorites\Films;
 
-use App\Models\DbFilm;
+use App\Domain\UserFavorites\Models\DbFilm;
 use Carbon\Carbon;
 
 class FilmRepository

@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use App\Models\DbUser;
+use App\Domain\UserFavorites\Models\DbUser;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Notification;
